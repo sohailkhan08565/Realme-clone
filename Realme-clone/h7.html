@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .box {
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+      }
+      .headingbar{
+        width: 100%;
+        height: 35px;
+        background-color: rgb(0, 0, 0);
+      }
+
+      .iconimg{
+        margin-left: 250px;
+        margin-top: 5px;
+        width: 2.5%;
+        height: 25px;
+
+      }
+      .headingbartext{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 9.5px;
+        color: aliceblue;
+        position: absolute;
+        left: 287px;
+        top: 12px;
+
+
+      }
+
+      .downloadbutton{
+        width: 80px;
+        height: 22px;
+        position: absolute;
+        left:   740px;
+        top: 8px;
+        border-radius: 20px;
+        font-size: 2.2mm;
+        padding: 4px;
+      }
+
+      .cross{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 1000px;
+        top: 8px;
+        background-color: transparent;
+      }
+      
+      
+    
+
+      .div1 {
+        width: 100%;
+        height: 500px;
+        /* background-color: rgb(255, 128, 0); */
+        background-image: url("photos/homepage1.webp");
+        background-size: cover;
+        background-position:center;
+      }
+
+      .div1box{
+        width: 100%;
+        height: 40px;
+        /* background-color: aqua; */
+      }
+      .div1boxa{
+        float: left;
+        width: 130px;
+        height: 40px;
+        /* background-color: blue; */
+      }
+      .div1boxaimg{
+        width: 60px;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 10px;
+
+      }
+
+      .div1boxb{
+        float: left;
+        width: 470px;
+        height: 40px;
+        /* background-color: rgb(238, 255, 0); */
+      }
+      .div1boxbtext{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        font-size: 10px;
+        float: left;
+        margin-left: 20px;
+        margin-top: 14px;
+      }
+      .div1boxtext{
+        
+        width: 100%;
+        height: 200px;
+        display: none;
+        /* background-color: green; */
+        position: absolute;
+        left: 0px;
+        top: 100px;
+
+      }
+    
+
+      .div1boxc{
+        /* font-size: 100px; */
+        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        float: left;
+        width: 260px;
+        height: 40px;
+        /* background-color: rgb(0, 255, 0); */
+      }
+      .div1boxctxt{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 11px;
+        float: left;
+        margin-left: 15px;
+        margin-top: 14px;
+
+      }
+
+      .div1boxd{
+        float: left;
+        width: 130px;
+        height: 40px;
+        /* background-color: rgb(255, 0, 0); */
+      }
+      .div1boxd1{
+      border-radius: 0px;
+        width: 100%;
+        height: 17px;
+        
+        margin-top: 10px;
+        border-radius: 12px;
+        padding-top: 4px;
+        /* background-color: dimgray;  */
+      }
+      .div1boxd1text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 10px;
+        float: left;
+        width: 70%;
+        margin-left: 12px;
+        /* background-color: rgb(161, 30, 30); */
+        outline: none;
+        border: none;
+        /* color: white; */
+      }
+      .div1boxd1img{
+        width: 13px;
+        /* background-color: transparent; */
+      }
+  
+      .div1boxe{
+        float: left;
+        width: 88px;
+        height: 40px;
+        background-color: rgb(255, 0, 132);
+      }
+    .div1boxeimg{
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 20px;
+        height: 20px;
+      }
+
+
+/* 
+       .div1boxtext{
+        width: 100%;
+        height: 200px;
+        display: none;
+        background-color: green;
+        position: absolute;
+        left: 0px;
+        top: 100px;
+
+      }
+      /*.div1boxtext{
+
+        font-size: 11px;
+      }
+      .div1box:hover .div1boxlist {
+        display: block;
+      }
+      .logoimg{
+        width: 60px;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 10px;
+
+      } */
+      
+
+      .div2 {
+        width: 100%;
+        height: auto;
+        /* background-color: rgb(217, 255, 0); */
+      }
+      .img2 {
+        width: 100%;
+      }
+
+      .div3 {
+        width: 100%;
+        height: auto;
+        /* background-color: rgb(16, 74, 36); */
+      }
+      .img3 {
+        width: 100%;
+      }
+
+      .div4 {
+        width: 100%;
+        height: auto;
+        /* background-color: rgb(60, 0, 255); */
+      }
+      .img4 {
+        width: 100%;
+      }
+
+      .div5a {
+        float: left;
+        width: 49.75%;
+        height: auto;
+        /* background-color: rgb(255, 0, 212); */
+      }
+      .img5a {
+        margin-right: 5px;
+        width: 100%;
+      }
+
+      .div5b {
+        float: left;
+        width: 49.75%;
+        height: auto;
+        /* background-color: rgb(0, 255, 51); */
+      }
+      .img5b {
+        margin-left: 5px;
+        width: 100%;
+      }
+
+      .div6a {
+        float: left;
+        width: 49.75%;
+        height: auto;
+        /* background-color: rgb(0, 255, 51); */
+      }
+      .img6a {
+        margin-right: 5px;
+        width: 100%;
+      }
+
+      .div6b {
+        float: left;
+        width: 49.75%;
+        height: auto;
+        /* background-color: rgb(0, 255, 51); */
+      }
+      .img6b {
+        margin-left: 5px;
+        width: 100%;
+      }
+
+      .div7a {
+        float: left;
+        width: 49.75%;
+        height: auto;
+        /* background-color: rgb(0, 255, 51); */
+      }
+      .img7a {
+        margin-right: 5px;
+        width: 100%;
+      }
+
+      .div7b {
+        float: left;
+        width: 49.75%;
+        height: auto;
+        /* background-color: rgb(0, 255, 51); */
+      }
+      .img7b {
+        margin-left: 5px;
+    
+        width: 100%;
+      }
+
+
+      .boxy
+      {
+        width: 100%;
+        height: 200px;
+        background-color: antiquewhite;
+
+        position: absolute;
+        top: 75px;
+        left: 0px;
+        display: none;
+      }
+
+      .div1boxbtext:hover .boxy{
+          display: block;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="box">
+        <div class="headingbar">
+          <button class="downloadbutton">Download App</button>
+          <p class="headingbartext">Download App to Unlock More Benefits. </p>
+            <img src="photos/realmeicon.png" alt="" class="iconimg">
+            <img src="photos/remove.png" alt="" class="cross">
+            
+        </div>
+
+
+      <div class="div1">
+             <div class="div1box">
+
+          <div class="div1boxa">
+            <img src="photos/download.svg" alt="" class="div1boxaimg">
+          </div>
+          
+          <div class="div1boxb">
+            <b><div class="div1boxbtext">Store
+
+
+
+              
+
+
+            </div> 
+              <div class="div1boxbtext">New Launch
+                <div class="boxy">
+                  <img src="photos/17392504172281d55e8d9240d4f9a811931f07b9f20cf.jpg.webp" alt="" height="200px">
+                </div>
+                
+              </div> 
+              <div class="div1boxbtext">Phone
+                <div class="boxy"></div>
+              </div> 
+              <div class="div1boxbtext">Audio</div> 
+              <div class="div1boxbtext">Accessories
+                <div class="boxy"></div>
+
+              </div></b>  
+
+
+          </div>
+          
+          <div class="div1boxc">
+            <p class="div1boxctxt">Community</p>
+            <p class="div1boxctxt">Support</p>
+            <p class="div1boxctxt">Brand</p>
+            <p class="div1boxctxt">realme UI</p>
+          </div>
+          
+          <div class="div1boxd">
+
+            <div class="div1boxd1">
+
+              <input type="text" placeholder="search" class="div1boxd1text">
+              <img src="photos/search.png" alt="" class="div1boxd1img">
+
+            </div>
+         
+          </div>
+          
+          <div class="div1boxe">
+            <img src="photos/icondiv1boxe.png" alt="" class="div1boxeimg">
+          </div>
+               
+        
+        
+        </div>
+
+           </div>
+
+
+
+
+
+
+
+        
+        
+        
+      </div>
+      <div class="div2">
+        <img src="photos/homepage2.webp" alt="" class="img2" />
+      </div>
+      <div class="div3">
+        <img src="photos/homepage3" alt="" class="img3" />
+      </div>
+      <div class="div4">
+        <img src="photos/homepage4.webp" alt="" class="img4" />
+      </div>
+      <div class="div5a">
+        <img src="photos/homepage5a.webp" alt="" class="img5a" />
+      </div>
+      <div class="div5b">
+        <img src="photos/homepage5b.webp" alt="" class="img5b" />
+      </div>
+
+      <div class="div6a">
+        <img src="photos/homepage6a.webp" alt="" class="img6a" />
+      </div>
+
+      <div class="div6b">
+        <img src="photos/homepage6b.webp" alt="" class="img6b" />
+      </div>
+
+      <div class="div7a">
+        <img src="photos/homepage7a.webp" alt="" class="img7a" />
+      </div>
+
+      <div class="div7b">
+        <img src="photos/homepage7b.webp" alt="" class="img7b" />
+      </div>
+    </div>
+  </body>
+</html>
